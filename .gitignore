@@ -1,0 +1,17 @@
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.sdf
+*.opensdf
+*.pdb
+*.ipch
+*.obj
+*.log
+*.tlog/
+*.cache
+*.db
+*.VC.db
+Debug/
+Release/
+x64/
+x86/
