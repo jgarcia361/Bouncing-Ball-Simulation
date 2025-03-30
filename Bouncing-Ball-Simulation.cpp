@@ -86,7 +86,6 @@ int main() {
         DrawText(TextFormat("FPS: %d", GetFPS()), 20, 40, 18, GREEN);
         DrawText(TextFormat("Frame Time: %.3f ms", GetFrameTime() * 1000), 20, 60, 18, GREEN);
         DrawText(TextFormat("Elapsed Time: %.3f sec", GetTime()), 20, 80, 18, GREEN);
-        //DrawText(TextFormat("X Vel: %f, Y Vel: %f", ballVelocity.x, ballVelocity.y), 20, 100, 18, GREEN);
 
         if (deltaTime >= 0.1f) {
             DrawText("Large delta time detected!", 20, 100, 18, RED);
